@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <section className="flex flex-col items-center justify-center h-screen gap-4 py-8 md:py-10 bg-zinc-950  bg-hero  bg-no-repeat  bg-cover  bg-left  bg-bottom">
-      <div className="inline-block max-w-lg text-center justify-center">
+      <div className="inline-block max-w-lg text-center justify-center px-2">
         <h1 className={` text-3xl text-white `}>
           ¡Hola. Aquí estamos construyendo la nueva{" "}
           <span className="text-blue-500">Ecommerce</span> para realizar tus
