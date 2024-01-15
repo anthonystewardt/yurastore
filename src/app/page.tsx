@@ -14,20 +14,14 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <section className="flex flex-col items-center justify-center h-screen gap-4 py-8 md:py-10 bg-zinc-950">
+    <section className="flex flex-col items-center justify-center h-screen gap-4 py-8 md:py-10 bg-zinc-950  bg-hero  bg-no-repeat  bg-cover  bg-left  bg-bottom">
       <div className="inline-block max-w-lg text-center justify-center">
         <h1 className={` text-3xl text-white `}>
-          ¡Hola. Aquí estamos construyendo la nueva <span className='text-blue-500'>Ecommerce</span> para realizar tus
+          ¡Hola. Aquí estamos construyendo la nueva{" "}
+          <span className="text-blue-500">Ecommerce</span> para realizar tus
           compras vía importación, con las mejores marcas!
         </h1>
         <h1 className={"text-blue-500 text-5xl"}>Yura&nbsp;</h1>
-        {/* <br />
-				<h1 className={title()}>
-					websites regardless of your design experience.
-				</h1>
-				<h2 className={subtitle({ class: "mt-4" })}>
-					Beautiful, fast and modern React UI library.
-				</h2> */}
       </div>
 
       <div className="flex gap-3">
@@ -50,14 +44,6 @@ export default function Home() {
           Instagram
         </Link>
       </div>
-
-      {/* <div className="mt-8">
-        <Snippet hideSymbol hideCopyButton variant="flat">
-          <span>
-            Get started by editing <Code color="primary">app/page.tsx</Code>
-          </span>
-        </Snippet>
-      </div> */}
       <div className="absolute bottom-2">
         <span className="text-sm font-semibold text-white">
           Desarrollado por{" "}
