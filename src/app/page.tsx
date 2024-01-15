@@ -1,14 +1,24 @@
 import { InstagramLogo } from '@/components/icons';
+import { Metadata } from 'next';
 import Image from 'next/image'
 import Link from 'next/link';
+
+
+export const metadata: Metadata = {
+  title: 'Tienda Yura importaciones de USA y China',
+  description: 'Yura, somos una empresa de importaciones de productos originales con las mejores marcas del mercado y garantía',
+  keywords: ['Yura', 'Tienda Yura', 'Tienda Yura importaciones', 'Tienda Yura importaciones de USA', 'Tienda Yura importaciones de China', 'Tiend'],
+  
+};
+
 
 export default function Home() {
   return (
     <section className="flex flex-col items-center justify-center h-screen gap-4 py-8 md:py-10 bg-zinc-950">
       <div className="inline-block max-w-lg text-center justify-center">
         <h1 className={` text-3xl text-white `}>
-          !Hola, Aquí estamos construyendo la nueva plataforma de realizar tus
-          compras vía importación, con las mejores marcas¡&nbsp;
+          ¡Hola, Aquí estamos construyendo la nueva plataforma de realizar tus
+          compras vía importación, con las mejores marcas!&nbsp;
         </h1>
         <h1 className={"text-blue-500 text-5xl"}>Tienda Yura&nbsp;</h1>
         {/* <br />
