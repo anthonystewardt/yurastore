@@ -17,10 +17,10 @@ export default function Home() {
     <section className="flex flex-col items-center justify-center h-screen gap-4 py-8 md:py-10 bg-zinc-950">
       <div className="inline-block max-w-lg text-center justify-center">
         <h1 className={` text-3xl text-white `}>
-          ¡Hola, Aquí estamos construyendo la nueva plataforma de realizar tus
-          compras vía importación, con las mejores marcas!&nbsp;
+          ¡Hola. Aquí estamos construyendo la nueva <span className='text-blue-500'>Ecommerce</span> para realizar tus
+          compras vía importación, con las mejores marcas!
         </h1>
-        <h1 className={"text-blue-500 text-5xl"}>Tienda Yura&nbsp;</h1>
+        <h1 className={"text-blue-500 text-5xl"}>Yura&nbsp;</h1>
         {/* <br />
 				<h1 className={title()}>
 					websites regardless of your design experience.
